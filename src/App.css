@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.App-router-links {
+  list-style-type: none;
+}
+
+.App-router-links li {
+  display: inline;
+  margin-right: 20px;
+}

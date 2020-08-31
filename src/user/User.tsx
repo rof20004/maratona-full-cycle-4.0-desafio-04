@@ -12,7 +12,6 @@ export default class User extends React.Component<{}, { users: any }> {
     try {
       const { data } = await axios.get('https://reqres.in/api/users');
       this.setState({ users: data.data });
-      console.log(this.state.users);
     } catch (error) {
       this.setState({ users: [] });
     }
